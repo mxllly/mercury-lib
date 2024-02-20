@@ -71,7 +71,14 @@ local Library = {
 			StrongText = Color3.fromHSV(0, 0, 1),        
 			WeakText = Color3.fromHSV(0, 0, 172/255)
 		},
-		Vaporwave = {},
+		Vaporwave = {
+			Main = Color3.fromRGB(147, 112, 219), -- Purple
+			Secondary = Color3.fromRGB(255, 105, 180), -- Hot Pink
+			Tertiary = Color3.fromRGB(0, 204, 255), -- Cyan
+			
+			StrongText = Color3.fromHSV(0, 0, 1), -- White for strong text on the color
+			WeakText = Color3.fromHSV(0, 0, 172/255) -- Light gray for weak text on the color
+		},
 		operagx = {
    			 Main = Color3.fromRGB(255, 0, 0), -- Red
     			Secondary = Color3.fromRGB(128, 0, 128), -- Dark Pink
