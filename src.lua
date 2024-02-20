@@ -103,7 +103,7 @@ local Library = {
 			StrongText = Color3.fromHSV(0, 0, 1), -- White for strong text on the color
 			WeakText = Color3.fromHSV(0, 0, 172/255) -- Light gray for weak text on the color
 		},
-		LofiTheme = {
+		Lofi = {
     			Main = Color3.fromRGB(129, 125, 120), -- Dusty Grey
     			Secondary = Color3.fromRGB(189, 183, 177), -- Light Taupe
     			Tertiary = Color3.fromRGB(230, 216, 207), -- Antique White
