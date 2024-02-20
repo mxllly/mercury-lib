@@ -80,7 +80,14 @@ local Library = {
     			StrongText = Color3.fromHSV(0, 0, 1), -- White for strong text on the color
     			WeakText = Color3.fromHSV(0, 0, 172/255) -- Light gray for weak text on the color
 		},
-		VisualStudio = {}
+		visualstudio = {
+    			Main = Color3.fromRGB(169, 169, 169), -- Grey
+    			Secondary = Color3.fromRGB(64, 64, 64), -- Dark Grey
+    			Tertiary = Color3.fromRGB(192, 192, 192), -- Light Grey
+
+    			StrongText = Color3.fromHSV(0, 0, 1), -- White for strong text on the color
+   		        WeakText = Color3.fromHSV(0, 0, 172/255) -- Light gray for weak text on the color
+		}
 	},
 	ColorPickerStyles = {
 		Legacy = 0,
