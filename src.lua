@@ -95,6 +95,14 @@ local Library = {
     			StrongText = Color3.fromHSV(0, 0, 1), -- White for strong text on the color
    		        WeakText = Color3.fromHSV(0, 0, 172/255) -- Light gray for weak text on the color
 		}
+		Japanese = {
+			Main = Color3.fromRGB(255, 214, 165), -- Pale Orange
+			Secondary = Color3.fromRGB(218, 112, 214), -- Orchid
+			Tertiary = Color3.fromRGB(0, 128, 128), -- Teal
+			
+			StrongText = Color3.fromHSV(0, 0, 1), -- White for strong text on the color
+			WeakText = Color3.fromHSV(0, 0, 172/255) -- Light gray for weak text on the color
+		}
 	},
 	ColorPickerStyles = {
 		Legacy = 0,
